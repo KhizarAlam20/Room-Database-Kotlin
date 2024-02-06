@@ -41,6 +41,7 @@ android {
 }
 
 dependencies {
+    implementation ("com.github.no.danielzeller:metaballslib:1.0.1")
 
     val room_version = "2.6.1"
 
@@ -71,4 +72,12 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+
+//    compile 'no.danielzeller:metaballslib:1.0.
+    implementation ("com.github.no.danielzeller:metaballslib:1.0.1")
+
+//    implementation ("com.github.volsahin:bottomify-navigation-view:1.0.2")
 }
+
+
